@@ -1,0 +1,22 @@
+/* styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 300px; /* Set a max-width for the cards */
+  margin: auto; /* Center the cards */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Crop the image to fit */
+}
